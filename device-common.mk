@@ -331,10 +331,6 @@ PRODUCT_COPY_FILES += \
 
 $(call soong_config_set,cbd,protocol,sipc)
 
-# SamsungDoze
-PRODUCT_PACKAGES += \
-    SamsungDoze
-
 # Secure Element
 PRODUCT_PACKAGES += \
     android.hardware.secure_element-service.thales
